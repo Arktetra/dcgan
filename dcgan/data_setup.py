@@ -33,12 +33,14 @@ def create_dataloaders(
         A DataLoader.
         
     Example usage:
+        ```
         dataloader = create_dataloader(
             root = path/to/data,
             transform = some_transform,
             batch_size = 32,
             num_workers = 2
         )
+        ```
     """
     
     # Use ImageFolder to create dataset
